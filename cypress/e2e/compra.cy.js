@@ -33,7 +33,7 @@ describe('Função de Compras', () => {
     cy.url().should('eq', 'https://www.saucedemo.com/checkout-complete.html');
   });
 
-  it('Finalizar compra com sucesso', () => {
+  it('Retornar à tela de itens com sucesso', () => {
     cy.Login_Cookie('standard_user')
     cy.visit('/checkout-complete.html', { failOnStatusCode: false })
     cy.get('[data-test="back-to-products"]').click()
