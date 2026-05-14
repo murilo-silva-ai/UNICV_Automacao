@@ -1,8 +1,8 @@
 Cypress.Commands.add('Login', (email, password) => {
-    cy.visit('/')
-    cy.get('#user-name').type(email)
-    cy.get('#password').type(password)
-    cy.get('#login-button').click()
+    cy.visit('/login')
+    cy.get('[data-testid="email"]').type(email)
+    cy.get('[data-testid="senha"]').type(password)
+    cy.get('[data-testid="entrar"]').click()
 })
 
 Cypress.Commands.add('Login_Cookie', (user) => {
