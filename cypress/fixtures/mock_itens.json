@@ -1,0 +1,33 @@
+{
+  "quantidade": 4,
+  "produtos": [
+    {
+      "nome": "Logitech MX Vertical",
+      "preco": 470,
+      "descricao": "Mouse",
+      "quantidade": 382,
+      "_id": "BeeJh5lz3k6kSIzA"
+    },
+    {
+      "nome": "Logitech G Pro Wireless",
+      "preco": 799,
+      "descricao": "Mouse Gamer",
+      "quantidade": 215,
+      "_id": "QeWk9ZpR7uSxM2aB"
+    },
+    {
+      "nome": "Logitech C920 HD Pro",
+      "preco": 350,
+      "descricao": "Webcam",
+      "quantidade": 128,
+      "_id": "Hx7N1tUe8vPaL4qC"
+    },
+    {
+      "nome": "Logitech Z623",
+      "preco": 620,
+      "descricao": "Caixas de Som",
+      "quantidade": 74,
+      "_id": "Rj5C2NkP1mVzT8wF"
+    }
+  ]
+}
